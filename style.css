@@ -39,7 +39,7 @@ html {
 .dialogue-box .search {
     position: relative;
     height: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .search input {
@@ -63,4 +63,43 @@ html {
 
 .copy-icon:hover {
     color: rgb(39, 96, 96);
+}
+
+#panel .slider {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider input {
+    width: 100%;
+    height: 5px;
+    accent-color: rgb(39, 96, 96);
+
+}
+
+.slider .slider-number {
+    /* display: flex;
+    justify-content: center; */
+    min-width: 30px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btn button {
+    width: 100%;
+    height: 50px;
+    margin: 16px 0 20px 0;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(99, 142, 142);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(76, 176, 176);
 }
